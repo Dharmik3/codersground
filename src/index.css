@@ -1,9 +1,12 @@
 body {
   margin: 0;
+ font-family: 'Heebo', sans-serif;
 }
 
 .top-pane {
-  background-color: hsl(225, 6%, 25%);
+  /* background-color: hsl(225, 6%, 25%); */
+  background-color: hsl(225, 6%, 13%);
+  border-top: 1px solid rgb(51, 51, 51);
 }
 
 .pane {
@@ -20,8 +23,9 @@ body {
   flex-basis: 0;
   display: flex;
   flex-direction: column;
-  padding: .5rem;
-  background-color: hsl(225, 6%, 25%);
+  padding: 0.5rem 0rem 1rem 0.7rem;
+  background-color: hsl(225, 6%, 13%);
+  border-right: 1px solid rgb(51, 51, 51);
 }
 
 .editor-container.collapsed {
@@ -46,7 +50,7 @@ body {
   justify-content: space-between;
   background-color: hsl(225, 6%, 13%);
   color: white;
-  padding: .5rem .5rem .5rem 1rem;
+  padding: 0rem .2rem .2rem .2rem;
   border-top-right-radius: .5rem;
   border-top-left-radius: .5rem;
 }
@@ -60,4 +64,26 @@ body {
   border-bottom-right-radius: .5rem;
   border-bottom-left-radius: .5rem;
   overflow: hidden;
+}
+
+
+.CodeMirror {
+font-family: Arial, monospace;
+font-size: 16px;
+}
+
+svg{
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.title-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.title{
+  font-size: 17px;
 }

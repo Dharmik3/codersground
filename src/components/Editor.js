@@ -20,7 +20,7 @@ import "../index.css"
 
 const Editor = (props) => {
     const [open, setOpen] = useState(true)
-    const { launguage, label, value, onChange,theme } = props
+    const { launguage, label, value, onChange,theme,svg } = props
     
     const handleChange = (editor, data, value) => {
         onChange(value)
@@ -31,7 +31,12 @@ const Editor = (props) => {
         <div className={`editor-container ${open ? '' : 'collapsed'}`}>
             
             <div className="editor-title">
-                {label}
+                <div className='title-div'>
+                    {svg}
+                    <span className='title'>{label}</span>
+                    
+                </div>
+                
                 <button
                     type="button"
                     onClick={() => setOpen(!open)}
