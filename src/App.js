@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Editor from "./components/Editor"
-import useLocalStorage from "./hooks/useLocalStorage"
+import useLocalStorage from "./utils/useLocalStorage"
 import "codemirror/theme/material.css";
 import 'codemirror/theme/dracula.css';
 import 'codemirror/theme/mdn-like.css';

@@ -9,7 +9,7 @@
 }
 
 select {
-  /* styling */
+ 
   background-color: rgb(47, 47, 66);
   border: thin solid rgb(58, 58, 78);
   border-radius: 7px;
@@ -19,7 +19,7 @@ select {
   line-height: 1em;
   padding: 6px 10px;
 color: rgb(177, 177, 177);
-  /* reset */
+
 
   margin: 0;      
   -webkit-box-sizing: border-box;
