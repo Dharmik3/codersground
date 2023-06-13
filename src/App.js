@@ -39,7 +39,6 @@ function App() {
       <div className='theme'>
         <img src='./coding.png' alt="logo" width="40px" height="35px" />
         <div>
-          {/* <label for="theme">Choose a theme: </label> */}
         
           <select class="round" name='theme' onChange={(el) => {
             setTheme(el.target.value)
@@ -50,15 +49,7 @@ function App() {
               ))
             }
           </select>
-        {/* <select name="theme" onChange={(el) => {
-          setTheme(el.target.value)
-        }}>
-          {
-            themeArray.map(theme => (
-              <option value={theme}>{theme}</option>
-            ))
-          }
-          </select> */}
+        
         </div>
       </div >
       <div className="pane top-pane">
@@ -99,7 +90,7 @@ function App() {
         <iframe
           srcDoc={srcDoc}
           title="output"
-          sandbox="allow-scripts"
+          // sandbox="allow-scripts"
           frameBorder="0"
           width="100%"
           height="100%"
