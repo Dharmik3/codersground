@@ -34,7 +34,6 @@ const Editor = (props) => {
                 <div className='title-div'>
                     {svg}
                     <span className='title'>{label}</span>
-                    
                 </div>
                 
                 <button
