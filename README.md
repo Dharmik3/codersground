@@ -15,3 +15,9 @@ The Online Code Editor, built with React and CodeMirror, focuses on supporting H
 * Live Output: You can see the real-time output of your HTML, CSS, and JavaScript code in the integrated output preview pane, similar to the CodePen website.
 
 * Theme options: Users can choose various theme options according to their choice.
+
+## Snapshot
+
+![code editor dark](https://github.com/Dharmik3/codersground/blob/main/codeeditordark.png)
+
+![code editor light](https://github.com/Dharmik3/codersground/blob/main/codeeditorlight.png)
